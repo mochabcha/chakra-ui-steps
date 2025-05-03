@@ -6,11 +6,11 @@
 <br />
 <br />
 
-[![npm - chakra-ui-steps](https://img.shields.io/npm/v/chakra-ui-steps "chakra-ui-steps npm")](https://www.npmjs.com/package/chakra-ui-steps)
+[![npm - chakra-ui-steps](https://img.shields.io/npm/v/chakra-ui-steps 'chakra-ui-steps npm')](https://www.npmjs.com/package/chakra-ui-steps)
 [![bundle size - chakra-ui-steps](https://badgen.net/bundlephobia/min/chakra-ui-steps)](https://bundlephobia.com/result?p=chakra-ui-steps)
 [![bundle size - chakra-ui-steps](https://badgen.net/bundlephobia/minzip/chakra-ui-steps)](https://bundlephobia.com/result?p=chakra-ui-steps)
-[![Total Downloads - chakra-ui-steps](https://badgen.net/npm/dt/chakra-ui-steps?color=blue "chakra-ui-steps npm downloads")](https://www.npmjs.com/package/chakra-ui-steps)
-[![Weekly Downloads - chakra-ui-steps](https://badgen.net/npm/dw/chakra-ui-steps?color=blue "chakra-ui-steps npm weekly downloads")](https://www.npmjs.com/package/chakra-ui-steps)
+[![Total Downloads - chakra-ui-steps](https://badgen.net/npm/dt/chakra-ui-steps?color=blue 'chakra-ui-steps npm downloads')](https://www.npmjs.com/package/chakra-ui-steps)
+[![Weekly Downloads - chakra-ui-steps](https://badgen.net/npm/dw/chakra-ui-steps?color=blue 'chakra-ui-steps npm weekly downloads')](https://www.npmjs.com/package/chakra-ui-steps)
 
 ![screenshot](https://i.imgur.com/4NDju8N.png)
 
@@ -33,8 +33,8 @@ npm i chakra-ui-steps
 In order to use the `Steps` component you will need to first extend the theme with the `StepsTheme` object. This can be done in your theme file:
 
 ```jsx
-import { extendTheme } from "@chakra-ui/react";
-import { StepsTheme as Steps } from "chakra-ui-steps";
+import { extendTheme } from '@chakra-ui/react';
+import { StepsTheme as Steps } from 'chakra-ui-steps';
 
 const theme = extendTheme({
   components: {
@@ -48,7 +48,7 @@ export default theme;
 Then you can use the `Steps` component in your app:
 
 ```jsx
-import { Steps, Step } from "chakra-ui-steps";
+import { Steps, Step } from 'chakra-ui-steps';
 
 const Example = () => {
   const { nextStep, prevStep, reset, activeStep } = useSteps({
